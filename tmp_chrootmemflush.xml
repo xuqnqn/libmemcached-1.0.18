@@ -1,0 +1,7 @@
+<testsuites name="memflush">
+	<testsuite name="memflush">
+		<testcase name="&#x2D;&#x2D;quiet" time="45"/>
+		<testcase name="&#x2D;&#x2D;help" time="39"/>
+		<testcase name="&#x2D;&#x2D;server" time="41"/>
+	</testsuite>
+</testsuites>

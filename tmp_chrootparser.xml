@@ -1,0 +1,9 @@
+<testsuites name="parser">
+	<testsuite name="memcached&#x28;&#x29;">
+		<testcase name="memcached&#x28;NULL&#x2C; 75&#x29;" time="0"/>
+		<testcase name="memcached&#x28;&quot;value&quot;&#x2C; 0&#x29;" time="0"/>
+		<testcase name="putenv&#x28;LIBMEMCACHED&#x3D;&#x2D;&#x2D;server&#x3D;localhost&#x29;" time="0"/>
+		<testcase name="putenv&#x28;LIBMEMCACHED&#x29;" time="0"/>
+		<testcase name="putenv&#x28;LIBMEMCACHED&#x3D;&#x2D;&#x2D;server&#x3D;&quot;localhost&quot;&#x29;" time="0"/>
+	</testsuite>
+</testsuites>

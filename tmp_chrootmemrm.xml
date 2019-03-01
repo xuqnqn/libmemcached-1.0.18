@@ -1,0 +1,9 @@
+<testsuites name="memrm">
+	<testsuite name="memrm">
+		<testcase name="&#x2D;&#x2D;quiet" time="43"/>
+		<testcase name="&#x2D;&#x2D;help" time="39"/>
+		<testcase name="rm&#x28;FOUND&#x29;" time="43"/>
+		<testcase name="rm&#x28;NOT&#x5F;FOUND&#x29;" time="45"/>
+		<testcase name="multiple rm&#x28;NOT&#x5F;FOUND&#x29;" time="67"/>
+	</testsuite>
+</testsuites>

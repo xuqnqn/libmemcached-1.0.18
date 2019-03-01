@@ -1,0 +1,7 @@
+<testsuites name="memcat">
+	<testsuite name="memcat">
+		<testcase name="&#x2D;&#x2D;help" time="43"/>
+		<testcase name="cat&#x28;FOUND&#x29;" time="45"/>
+		<testcase name="cat&#x28;NOT&#x5F;FOUND&#x29;" time="42"/>
+	</testsuite>
+</testsuites>

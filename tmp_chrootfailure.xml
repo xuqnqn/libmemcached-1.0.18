@@ -1,0 +1,8 @@
+<testsuites name="failure">
+	<testsuite name="cull">
+	</testsuite>
+	<testsuite name="server failed">
+	</testsuite>
+	<testsuite name="server eject">
+	</testsuite>
+</testsuites>

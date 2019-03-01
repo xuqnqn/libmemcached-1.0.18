@@ -1,0 +1,117 @@
+make -j5  install-am
+make[1]: Entering directory `/home/xuqnqn/work/memcache/libmemcached-1.0.18'
+  CXXLD    libtest/libtest.la
+  CXXLD    libtest/unittest
+  CXXLD    libtest/skiptest
+  CXXLD    tests/cycle
+  CXXLD    tests/libmemcached-1.0/internals
+  CXXLD    tests/libmemcached-1.0/testapp
+  CXXLD    tests/libmemcached-1.0/testsocket
+  CXXLD    tests/libmemcached-1.0/sasl
+  CXXLD    tests/atomsmasher
+  CXXLD    tests/testudp
+  CXXLD    tests/testplus
+  CXXLD    tests/parser
+  CXXLD    tests/failure
+  CXXLD    tests/testhashkit
+  CXXLD    tests/hash_plus
+  CXXLD    tests/memcapable
+  CXXLD    tests/memstat
+  CXXLD    tests/memcp
+  CXXLD    tests/memflush
+  CXXLD    tests/memrm
+  CXXLD    tests/memexist
+  CXXLD    tests/memtouch
+  CXXLD    tests/memcat
+  CXXLD    tests/memping
+  CXXLD    tests/memerror
+  CXXLD    tests/memslap
+  CXXLD    tests/memdump
+make[2]: Entering directory `/home/xuqnqn/work/memcache/libmemcached-1.0.18'
+ /bin/mkdir -p '/usr/local/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libhashkit/libhashkit.la libmemcached/libmemcached.la libmemcached/libmemcachedutil.la '/usr/local/lib'
+libtool: install: /usr/bin/install -c libhashkit/.libs/libhashkit.so.2.0.0 /usr/local/lib/libhashkit.so.2.0.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libhashkit.so.2.0.0 libhashkit.so.2 || { rm -f libhashkit.so.2 && ln -s libhashkit.so.2.0.0 libhashkit.so.2; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libhashkit.so.2.0.0 libhashkit.so || { rm -f libhashkit.so && ln -s libhashkit.so.2.0.0 libhashkit.so; }; })
+libtool: install: /usr/bin/install -c libhashkit/.libs/libhashkit.lai /usr/local/lib/libhashkit.la
+libtool: install: /usr/bin/install -c libmemcached/.libs/libmemcached.so.11.0.0 /usr/local/lib/libmemcached.so.11.0.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libmemcached.so.11.0.0 libmemcached.so.11 || { rm -f libmemcached.so.11 && ln -s libmemcached.so.11.0.0 libmemcached.so.11; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libmemcached.so.11.0.0 libmemcached.so || { rm -f libmemcached.so && ln -s libmemcached.so.11.0.0 libmemcached.so; }; })
+libtool: install: /usr/bin/install -c libmemcached/.libs/libmemcached.lai /usr/local/lib/libmemcached.la
+libtool: install: (cd /home/xuqnqn/work/memcache/libmemcached-1.0.18; /bin/bash /home/xuqnqn/work/memcache/libmemcached-1.0.18/libtool  --silent --tag CXX --mode=relink c++ -std=c++0x -DBUILDING_LIBMEMCACHED -pthread -g -O2 -Wno-unknown-pragmas -Wno-pragmas -Wall -Wextra -Wno-attributes -Wvarargs -Waddress -Warray-bounds -Wchar-subscripts -Wcomment -Wctor-dtor-privacy -Wfloat-equal -Wformat=2 -Wformat-y2k -Wmaybe-uninitialized -Wmissing-field-initializers -Wlogical-op -Wnon-virtual-dtor -Wnormalized=id -Woverloaded-virtual -Wpointer-arith -Wredundant-decls -Wshadow -Wsign-compare -Wstrict-overflow=1 -Wswitch-enum -Wtrampolines -Wundef -Wunsafe-loop-optimizations -funsafe-loop-optimizations -Wc++11-compat -Wclobbered -Wunused -Wunused-result -Wunused-variable -Wunused-parameter -Wunused-local-typedefs -Wwrite-strings -Wformat-security -fwrapv -pipe -fPIE -pie -Wsizeof-pointer-memaccess -Wpacked -version-info 2:0:0 -o libmemcached/libmemcachedutil.la -rpath /usr/local/lib libmemcached/libmemcached_libmemcachedutil_la-backtrace.lo libmemcachedutil/libmemcached_libmemcachedutil_la-flush.lo libmemcachedutil/libmemcached_libmemcachedutil_la-pid.lo libmemcachedutil/libmemcached_libmemcachedutil_la-ping.lo libmemcachedutil/libmemcached_libmemcachedutil_la-pool.lo libmemcachedutil/libmemcached_libmemcachedutil_la-version.lo libmemcached/libmemcached.la )
+libtool: install: /usr/bin/install -c libmemcached/.libs/libmemcachedutil.so.2.0.0T /usr/local/lib/libmemcachedutil.so.2.0.0
+libtool: install: (cd /usr/local/lib && { ln -s -f libmemcachedutil.so.2.0.0 libmemcachedutil.so.2 || { rm -f libmemcachedutil.so.2 && ln -s libmemcachedutil.so.2.0.0 libmemcachedutil.so.2; }; })
+libtool: install: (cd /usr/local/lib && { ln -s -f libmemcachedutil.so.2.0.0 libmemcachedutil.so || { rm -f libmemcachedutil.so && ln -s libmemcachedutil.so.2.0.0 libmemcachedutil.so; }; })
+libtool: install: /usr/bin/install -c libmemcached/.libs/libmemcachedutil.lai /usr/local/lib/libmemcachedutil.la
+libtool: install: /usr/bin/install -c libhashkit/.libs/libhashkit.a /usr/local/lib/libhashkit.a
+libtool: install: chmod 644 /usr/local/lib/libhashkit.a
+libtool: install: ranlib /usr/local/lib/libhashkit.a
+libtool: install: /usr/bin/install -c libmemcached/.libs/libmemcached.a /usr/local/lib/libmemcached.a
+libtool: install: chmod 644 /usr/local/lib/libmemcached.a
+libtool: install: ranlib /usr/local/lib/libmemcached.a
+libtool: install: /usr/bin/install -c libmemcached/.libs/libmemcachedutil.a /usr/local/lib/libmemcachedutil.a
+libtool: install: chmod 644 /usr/local/lib/libmemcachedutil.a
+libtool: install: ranlib /usr/local/lib/libmemcachedutil.a
+libtool: finish: PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/sbin" ldconfig -n /usr/local/lib
+----------------------------------------------------------------------
+Libraries have been installed in:
+   /usr/local/lib
+
+If you ever happen to want to link against installed libraries
+in a given directory, LIBDIR, you must either use libtool, and
+specify the full pathname of the library, or use the `-LLIBDIR'
+flag during linking and do at least one of the following:
+   - add LIBDIR to the `LD_LIBRARY_PATH' environment variable
+     during execution
+   - add LIBDIR to the `LD_RUN_PATH' environment variable
+     during linking
+   - use the `-Wl,-rpath -Wl,LIBDIR' linker flag
+   - have your system administrator add LIBDIR to `/etc/ld.so.conf'
+
+See any operating system documentation about shared libraries for
+more information, such as the ld(1) and ld.so(8) manual pages.
+----------------------------------------------------------------------
+ /bin/mkdir -p '/usr/local/bin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c clients/memcapable clients/memcat clients/memcp clients/memdump clients/memerror clients/memexist clients/memtouch clients/memflush clients/memparse clients/memping clients/memrm clients/memslap clients/memstat '/usr/local/bin'
+libtool: install: /usr/bin/install -c clients/.libs/memcapable /usr/local/bin/memcapable
+libtool: install: /usr/bin/install -c clients/.libs/memcat /usr/local/bin/memcat
+libtool: install: /usr/bin/install -c clients/.libs/memcp /usr/local/bin/memcp
+libtool: install: /usr/bin/install -c clients/.libs/memdump /usr/local/bin/memdump
+libtool: install: /usr/bin/install -c clients/.libs/memerror /usr/local/bin/memerror
+libtool: install: /usr/bin/install -c clients/.libs/memexist /usr/local/bin/memexist
+libtool: install: /usr/bin/install -c clients/.libs/memtouch /usr/local/bin/memtouch
+libtool: install: /usr/bin/install -c clients/.libs/memflush /usr/local/bin/memflush
+libtool: install: /usr/bin/install -c clients/.libs/memparse /usr/local/bin/memparse
+libtool: install: /usr/bin/install -c clients/.libs/memping /usr/local/bin/memping
+libtool: install: /usr/bin/install -c clients/.libs/memrm /usr/local/bin/memrm
+libtool: install: /usr/bin/install -c clients/.libs/memslap /usr/local/bin/memslap
+libtool: install: /usr/bin/install -c clients/.libs/memstat /usr/local/bin/memstat
+ /bin/mkdir -p '/usr/local/share/aclocal'
+ /usr/bin/install -c -m 644 m4/ax_libmemcached.m4 '/usr/local/share/aclocal'
+ /bin/mkdir -p '/usr/local/share/man/man1'
+ /usr/bin/install -c -m 644 man/memaslap.1 man/memcapable.1 man/memcat.1 man/memcp.1 man/memdump.1 man/memerror.1 man/memexist.1 man/memflush.1 man/memparse.1 man/memping.1 man/memrm.1 man/memslap.1 man/memstat.1 man/memtouch.1 '/usr/local/share/man/man1'
+ /bin/mkdir -p '/usr/local/share/man/man3'
+ /usr/bin/install -c -m 644 man/hashkit_clone.3 man/hashkit_crc32.3 man/hashkit_create.3 man/hashkit_fnv1_32.3 man/hashkit_fnv1_64.3 man/hashkit_fnv1a_32.3 man/hashkit_fnv1a_64.3 man/hashkit_free.3 man/hashkit_functions.3 man/hashkit_hsieh.3 man/hashkit_is_allocated.3 man/hashkit_jenkins.3 man/hashkit_md5.3 man/hashkit_murmur.3 man/hashkit_value.3 man/libhashkit.3 man/libmemcached.3 man/libmemcached_check_configuration.3 man/libmemcached_configuration.3 man/libmemcached_examples.3 man/libmemcachedutil.3 man/memcached.3 man/memcached_add.3 man/memcached_add_by_key.3 man/memcached_analyze.3 man/memcached_append.3 man/memcached_append_by_key.3 man/memcached_behavior_get.3 man/memcached_behavior_set.3 man/memcached_callback_get.3 man/memcached_callback_set.3 man/memcached_cas.3 man/memcached_cas_by_key.3 man/memcached_clone.3 man/memcached_create.3 man/memcached_decrement.3 man/memcached_decrement_with_initial.3 man/memcached_delete.3 man/memcached_delete_by_key.3 man/memcached_destroy_sasl_auth_data.3 '/usr/local/share/man/man3'
+ /usr/bin/install -c -m 644 man/memcached_dump.3 man/memcached_exist.3 man/memcached_exist_by_key.3 man/memcached_fetch.3 man/memcached_fetch_execute.3 man/memcached_fetch_result.3 man/memcached_flush_buffers.3 man/memcached_free.3 man/memcached_generate_hash.3 man/memcached_generate_hash_value.3 man/memcached_get.3 man/memcached_get_by_key.3 man/memcached_get_memory_allocators.3 man/memcached_get_sasl_callbacks.3 man/memcached_get_user_data.3 man/memcached_increment.3 man/memcached_increment_with_initial.3 man/memcached_last_error_message.3 man/memcached_lib_version.3 man/memcached_mget.3 man/memcached_mget_by_key.3 man/memcached_mget_execute.3 man/memcached_mget_execute_by_key.3 man/memcached_pool.3 man/memcached_pool_behavior_get.3 man/memcached_pool_behavior_set.3 man/memcached_pool_create.3 man/memcached_pool_destroy.3 man/memcached_pool_fetch.3 man/memcached_pool_pop.3 man/memcached_pool_push.3 man/memcached_pool_release.3 man/memcached_pool_st.3 man/memcached_prepend.3 man/memcached_prepend_by_key.3 man/memcached_quit.3 man/memcached_replace.3 man/memcached_replace_by_key.3 man/memcached_sasl_set_auth_data.3 man/memcached_server_add.3 '/usr/local/share/man/man3'
+ /usr/bin/install -c -m 644 man/memcached_server_count.3 man/memcached_server_cursor.3 man/memcached_server_list.3 man/memcached_server_list_append.3 man/memcached_server_list_count.3 man/memcached_server_list_free.3 man/memcached_server_push.3 man/memcached_servers_parse.3 man/memcached_set.3 man/memcached_set_by_key.3 man/memcached_set_memory_allocators.3 man/memcached_set_sasl_callbacks.3 man/memcached_set_user_data.3 man/memcached_stat.3 man/memcached_stat_execute.3 man/memcached_stat_get_keys.3 man/memcached_stat_get_value.3 man/memcached_stat_servername.3 man/memcached_strerror.3 man/memcached_touch.3 man/memcached_touch_by_key.3 man/memcached_verbosity.3 man/memcached_version.3 '/usr/local/share/man/man3'
+ /bin/mkdir -p '/usr/local/include'
+ /bin/mkdir -p '/usr/local/include/libmemcached-1.0'
+ /usr/bin/install -c -m 644  libmemcached-1.0/alloc.h libmemcached-1.0/allocators.h libmemcached-1.0/analyze.h libmemcached-1.0/auto.h libmemcached-1.0/basic_string.h libmemcached-1.0/behavior.h libmemcached-1.0/callback.h libmemcached-1.0/callbacks.h libmemcached-1.0/configure.h libmemcached-1.0/defaults.h libmemcached-1.0/delete.h libmemcached-1.0/deprecated_types.h libmemcached-1.0/dump.h libmemcached-1.0/encoding_key.h libmemcached-1.0/error.h libmemcached-1.0/exception.hpp libmemcached-1.0/exist.h libmemcached-1.0/fetch.h libmemcached-1.0/flush.h libmemcached-1.0/flush_buffers.h libmemcached-1.0/get.h libmemcached-1.0/hash.h libmemcached-1.0/limits.h libmemcached-1.0/memcached.h libmemcached-1.0/memcached.hpp libmemcached-1.0/options.h libmemcached-1.0/parse.h libmemcached-1.0/platform.h libmemcached-1.0/quit.h libmemcached-1.0/result.h libmemcached-1.0/return.h libmemcached-1.0/sasl.h libmemcached-1.0/server.h libmemcached-1.0/server_list.h libmemcached-1.0/stats.h libmemcached-1.0/storage.h libmemcached-1.0/strerror.h libmemcached-1.0/touch.h libmemcached-1.0/triggers.h libmemcached-1.0/types.h '/usr/local/include/libmemcached-1.0'
+ /bin/mkdir -p '/usr/local/include/libmemcachedutil-1.0'
+ /usr/bin/install -c -m 644  libmemcachedutil-1.0/flush.h libmemcachedutil-1.0/ostream.hpp libmemcachedutil-1.0/pid.h libmemcachedutil-1.0/ping.h libmemcachedutil-1.0/pool.h libmemcachedutil-1.0/util.h libmemcachedutil-1.0/version.h '/usr/local/include/libmemcachedutil-1.0'
+ /bin/mkdir -p '/usr/local/include/libmemcached-1.0/types'
+ /usr/bin/install -c -m 644  libmemcached-1.0/types/behavior.h libmemcached-1.0/types/callback.h libmemcached-1.0/types/connection.h libmemcached-1.0/types/hash.h libmemcached-1.0/types/return.h libmemcached-1.0/types/server_distribution.h '/usr/local/include/libmemcached-1.0/types'
+ /bin/mkdir -p '/usr/local/include/libhashkit'
+ /usr/bin/install -c -m 644  libhashkit/hashkit.h '/usr/local/include/libhashkit'
+ /bin/mkdir -p '/usr/local/include/libmemcached-1.0'
+ /usr/bin/install -c -m 644  libmemcached-1.0/verbosity.h libmemcached-1.0/version.h libmemcached-1.0/visibility.h '/usr/local/include/libmemcached-1.0'
+ /bin/mkdir -p '/usr/local/include/libmemcached-1.0/struct'
+ /usr/bin/install -c -m 644  libmemcached-1.0/struct/allocator.h libmemcached-1.0/struct/analysis.h libmemcached-1.0/struct/callback.h libmemcached-1.0/struct/memcached.h libmemcached-1.0/struct/result.h libmemcached-1.0/struct/sasl.h libmemcached-1.0/struct/server.h libmemcached-1.0/struct/stat.h libmemcached-1.0/struct/string.h '/usr/local/include/libmemcached-1.0/struct'
+ /bin/mkdir -p '/usr/local/include/libhashkit-1.0'
+ /usr/bin/install -c -m 644  libhashkit-1.0/algorithm.h libhashkit-1.0/behavior.h libhashkit-1.0/configure.h libhashkit-1.0/digest.h libhashkit-1.0/function.h libhashkit-1.0/has.h libhashkit-1.0/hashkit.h libhashkit-1.0/hashkit.hpp libhashkit-1.0/strerror.h libhashkit-1.0/string.h libhashkit-1.0/str_algorithm.h libhashkit-1.0/types.h libhashkit-1.0/visibility.h '/usr/local/include/libhashkit-1.0'
+ /bin/mkdir -p '/usr/local/include/libmemcached'
+ /usr/bin/install -c -m 644  libmemcached/memcached.h libmemcached/memcached.hpp libmemcached/util.h '/usr/local/include/libmemcached'
+ /bin/mkdir -p '/usr/local/lib/pkgconfig'
+ /usr/bin/install -c -m 644 support/libmemcached.pc '/usr/local/lib/pkgconfig'
+make[2]: Leaving directory `/home/xuqnqn/work/memcache/libmemcached-1.0.18'
+make[1]: Leaving directory `/home/xuqnqn/work/memcache/libmemcached-1.0.18'

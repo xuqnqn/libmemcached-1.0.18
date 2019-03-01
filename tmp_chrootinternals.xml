@@ -1,0 +1,11 @@
+<testsuites name="internals">
+	<testsuite name="string">
+		<testcase name="string static with null" time="0"/>
+		<testcase name="string alloc with null" time="0"/>
+		<testcase name="string alloc with 1K" time="0"/>
+		<testcase name="string alloc with malloc failure" time="0"/>
+		<testcase name="string append" time="4"/>
+		<testcase name="string append failure &#x28;too big&#x29;" time="2"/>
+		<testcase name="string&#x5F;alloc&#x5F;append&#x5F;multiple" time="0"/>
+	</testsuite>
+</testsuites>

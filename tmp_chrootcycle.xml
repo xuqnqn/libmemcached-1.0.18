@@ -1,0 +1,12 @@
+<testsuites name="cycle">
+	<testsuite name="server&#x5F;startup&#x28;&#x29;">
+		<testcase name="server&#x5F;startup&#x28;1&#x29;" time="1002"/>
+		<testcase name="server&#x5F;startup&#x28;10&#x29;" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="shutdown&#x5F;and&#x5F;remove&#x28;&#x29;" time="0"/>
+		<testcase name="server&#x5F;startup&#x28;10&#x29;" time="0">
+		 <skipped/>
+		</testcase>
+	</testsuite>
+</testsuites>

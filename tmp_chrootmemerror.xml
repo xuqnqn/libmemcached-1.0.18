@@ -1,0 +1,9 @@
+<testsuites name="memerror">
+	<testsuite name="memerror">
+		<testcase name="&#x2D;&#x2D;help" time="40"/>
+		<testcase name="&#x2D;&#x2D;version" time="48"/>
+		<testcase name="&lt;error&gt;" time="45"/>
+		<testcase name="0" time="42"/>
+		<testcase name="&lt;bad input&gt;" time="41"/>
+	</testsuite>
+</testsuites>

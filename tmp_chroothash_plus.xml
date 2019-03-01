@@ -1,0 +1,12 @@
+<testsuites name="hash&#x5F;plus">
+	<testsuite name="basic">
+		<testcase name="exists" time="0"/>
+		<testcase name="new" time="0"/>
+		<testcase name="copy" time="0"/>
+		<testcase name="assign" time="0"/>
+		<testcase name="digest" time="0"/>
+		<testcase name="set&#x5F;function" time="0"/>
+		<testcase name="set&#x5F;distribution&#x5F;function" time="0"/>
+		<testcase name="compare" time="0"/>
+	</testsuite>
+</testsuites>

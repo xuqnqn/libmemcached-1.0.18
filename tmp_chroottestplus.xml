@@ -1,0 +1,18 @@
+<testsuites name="testplus">
+	<testsuite name="block">
+		<testcase name="basic" time="1"/>
+		<testcase name="basic&#x5F;master&#x5F;key" time="0"/>
+		<testcase name="increment&#x5F;test" time="1"/>
+		<testcase name="mget" time="3"/>
+		<testcase name="basic&#x5F;behavior" time="0"/>
+	</testsuite>
+	<testsuite name="error&#x28;&#x29;">
+		<testcase name="error&#x28;&#x29;" time="0"/>
+		<testcase name="error&#x28;std&#x3A;&#x3A;string&amp;&#x29;" time="0"/>
+		<testcase name="error&#x28;memcached&#x5F;return&#x5F;t&amp;&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="regression">
+		<testcase name="lp&#x3A;1010899 Memcache&#x28;&#x29;" time="0"/>
+		<testcase name="lp&#x3A;1010899 Memcache&#x28;localhost&#x2C; port&#x29;" time="0"/>
+	</testsuite>
+</testsuites>

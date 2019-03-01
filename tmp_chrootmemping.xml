@@ -1,0 +1,7 @@
+<testsuites name="memping">
+	<testsuite name="memping">
+		<testcase name="&#x2D;&#x2D;help" time="11514"/>
+		<testcase name="ping&#x28;FOUND&#x29;" time="7541"/>
+		<testcase name="ping&#x28;NOT&#x5F;FOUND&#x29;" time="22605"/>
+	</testsuite>
+</testsuites>

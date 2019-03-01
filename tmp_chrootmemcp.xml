@@ -1,0 +1,5 @@
+<testsuites name="memcp">
+	<testsuite name="memcp">
+		<testcase name="&#x2D;&#x2D;help" time="43"/>
+	</testsuite>
+</testsuites>

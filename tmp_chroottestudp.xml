@@ -1,0 +1,70 @@
+<testsuites name="testudp">
+	<testsuite name="udp&#x5F;setup">
+		<testcase name="set&#x5F;udp&#x5F;behavior&#x5F;test" time="0"/>
+		<testcase name="add&#x5F;tcp&#x5F;server&#x5F;udp&#x5F;client&#x5F;test" time="0"/>
+		<testcase name="add&#x5F;udp&#x5F;server&#x5F;tcp&#x5F;client&#x5F;test" time="0"/>
+	</testsuite>
+	<testsuite name="compatibility">
+		<testcase name="version" time="0"/>
+		<testcase name="version" time="1"/>
+		<testcase name="memcached&#x5F;get&#x28;&#x29;" time="0"/>
+		<testcase name="memcached&#x5F;mget&#x5F;execute&#x5F;by&#x5F;key&#x28;&#x29;" time="0"/>
+		<testcase name="memcached&#x5F;stat&#x28;&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="udp&#x5F;io">
+		<testcase name="udp&#x5F;set&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;buffered&#x5F;set&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;set&#x5F;too&#x5F;big&#x5F;test" time="4"/>
+		<testcase name="udp&#x5F;delete&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;buffered&#x5F;delete&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;verbosity&#x5F;test" time="1"/>
+		<testcase name="udp&#x5F;quit&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;flush&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;incr&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;decr&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;stat&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;version&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;get&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;mixed&#x5F;io&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+	</testsuite>
+	<testsuite name="udp&#x5F;binary&#x5F;io">
+		<testcase name="udp&#x5F;set&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;buffered&#x5F;set&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;set&#x5F;too&#x5F;big&#x5F;test" time="2"/>
+		<testcase name="udp&#x5F;delete&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;buffered&#x5F;delete&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;verbosity&#x5F;test" time="1"/>
+		<testcase name="udp&#x5F;quit&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;flush&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;incr&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;decr&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="udp&#x5F;stat&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;version&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;get&#x5F;test" time="0"/>
+		<testcase name="udp&#x5F;mixed&#x5F;io&#x5F;test" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

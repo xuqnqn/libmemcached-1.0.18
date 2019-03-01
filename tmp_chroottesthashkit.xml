@@ -1,0 +1,38 @@
+<testsuites name="testhashkit">
+	<testsuite name="allocation">
+		<testcase name="init" time="0"/>
+		<testcase name="create and free" time="0"/>
+		<testcase name="clone" time="0"/>
+	</testsuite>
+	<testsuite name="hashkit&#x5F;st&#x5F;functions">
+		<testcase name="hashkit&#x5F;digest" time="0"/>
+		<testcase name="hashkit&#x5F;set&#x5F;function" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="hashkit&#x5F;set&#x5F;custom&#x5F;function" time="0"/>
+		<testcase name="hashkit&#x5F;get&#x5F;function" time="0"/>
+		<testcase name="hashkit&#x5F;set&#x5F;distribution&#x5F;function" time="0"/>
+		<testcase name="hashkit&#x5F;set&#x5F;custom&#x5F;distribution&#x5F;function" time="0"/>
+		<testcase name="hashkit&#x5F;compare" time="0"/>
+	</testsuite>
+	<testsuite name="library&#x5F;functions">
+		<testcase name="libhashkit&#x5F;digest" time="0"/>
+	</testsuite>
+	<testsuite name="hashing">
+		<testcase name="one&#x5F;at&#x5F;a&#x5F;time" time="0"/>
+		<testcase name="md5" time="0"/>
+		<testcase name="crc" time="0"/>
+		<testcase name="fnv1&#x5F;64" time="0"/>
+		<testcase name="fnv1a&#x5F;64" time="0"/>
+		<testcase name="fnv1&#x5F;32" time="0"/>
+		<testcase name="fnv1a&#x5F;32" time="0"/>
+		<testcase name="hsieh" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="murmur" time="0"/>
+		<testcase name="murmur3" time="0"/>
+		<testcase name="jenkis" time="0"/>
+	</testsuite>
+	<testsuite name="regression">
+	</testsuite>
+</testsuites>

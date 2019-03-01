@@ -1,0 +1,127 @@
+<testsuites name="unittest">
+	<testsuite name="environment">
+		<testcase name="getenv&#x28;&#x29;" time="0"/>
+		<testcase name="LIBTOOL&#x5F;COMMAND" time="0"/>
+		<testcase name="VALGRIND&#x5F;COMMAND" time="0"/>
+		<testcase name="HELGRIND&#x5F;COMMAND" time="0"/>
+		<testcase name="GDB&#x5F;COMMAND" time="0"/>
+	</testsuite>
+	<testsuite name="return values">
+		<testcase name="TEST&#x5F;SUCCESS" time="0"/>
+		<testcase name="TEST&#x5F;FAILURE" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="TEST&#x5F;SUCCESS &#x3D;&#x3D; 0" time="0"/>
+		<testcase name="SUCCESS" time="0"/>
+		<testcase name="libtest&#x3A;&#x3A;&#x5F;&#x5F;skipped" time="0"/>
+		<testcase name="SKIP&#x5F;IF" time="0"/>
+		<testcase name="SKIP&#x5F;UNLESS" time="0"/>
+		<testcase name="FAIL" time="0"/>
+		<testcase name="ASSERT&#x5F;FALSE&#x5F;" time="0"/>
+		<testcase name="ASSERT&#x5F;FALSE" time="0"/>
+		<testcase name="ASSERT&#x5F;NEQ" time="0"/>
+		<testcase name="ASSERT&#x5F;NEQ FAIL" time="0"/>
+	</testsuite>
+	<testsuite name="test&#x5F;skip&#x28;&#x29;">
+		<testcase name="true&#x2C; true" time="0"/>
+		<testcase name="true&#x2C; false" time="0"/>
+	</testsuite>
+	<testsuite name="local">
+		<testcase name="test&#x5F;is&#x5F;local&#x28;&#x29;" time="0"/>
+		<testcase name="test&#x5F;is&#x5F;local&#x28;NOT&#x29;" time="0">
+		 <skipped/>
+		</testcase>
+	</testsuite>
+	<testsuite name="directories">
+		<testcase name="var exists" time="0"/>
+		<testcase name="var&#x2F;tmp exists" time="0"/>
+		<testcase name="var&#x2F;run exists" time="0"/>
+		<testcase name="var&#x2F;log exists" time="0"/>
+		<testcase name="var&#x2F;drizzle exists" time="0"/>
+		<testcase name="var&#x2F;tmp" time="0"/>
+		<testcase name="var&#x2F;run" time="0"/>
+		<testcase name="var&#x2F;log" time="0"/>
+		<testcase name="var&#x2F;drizzle" time="0"/>
+		<testcase name="var&#x2F;tmp rm" time="0"/>
+		<testcase name="var&#x2F;run rm" time="0"/>
+		<testcase name="var&#x2F;log rm" time="0"/>
+		<testcase name="var&#x2F;drizzle rm" time="0"/>
+	</testsuite>
+	<testsuite name="comparison">
+		<testcase name="&#x5F;compare&#x28;test&#x5F;return&#x5F;t&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="gearmand">
+	</testsuite>
+	<testsuite name="memcached">
+		<testcase name="memcached startup&#x2D;shutdown" time="1001"/>
+		<testcase name="memcached&#x28;socket file&#x29; startup&#x2D;shutdown" time="1000"/>
+		<testcase name="&#x5F;compare&#x28;memcached&#x5F;return&#x5F;t&#x29;" time="0"/>
+		<testcase name="server&#x5F;startup&#x28;fail&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="drizzled">
+	</testsuite>
+	<testsuite name="cmdline">
+		<testcase name="echo fubar" time="0"/>
+		<testcase name="core&#x2D;count" time="31"/>
+		<testcase name="wait &#x2D;&#x2D;quiet" time="30"/>
+		<testcase name="wait &#x2D;&#x2D;quiet &#x2D;&#x2D;help" time="29"/>
+		<testcase name="wait &#x2D;&#x2D;quiet &#x2D;&#x2D;version" time="29"/>
+		<testcase name="wait &#x2D;&#x2D;quiet &#x2F;etc&#x2F;services" time="37"/>
+		<testcase name="wait &#x2F;etc&#x2F;services" time="33"/>
+		<testcase name="wait &#x2F;etc&#x2F;services" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="gdb wait &#x2F;etc&#x2F;services" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="gdb abort" time="0">
+		 <skipped/>
+		</testcase>
+	</testsuite>
+	<testsuite name="application">
+		<testcase name="vchar&#x5F;t" time="0"/>
+		<testcase name="vchar&#x5F;t make&#x28;&#x29; append&#x28;&#x29;" time="0"/>
+		<testcase name="vchar&#x5F;t compare&#x28;&#x29;" time="0"/>
+		<testcase name="true" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="gbd true &#x2D;&#x2D;fubar" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="gbd true" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="true &#x2D;&#x2D;fubar" time="0">
+		 <skipped/>
+		</testcase>
+		<testcase name="doesnotexist &#x2D;&#x2D;fubar" time="0"/>
+		<testcase name="echo fubar" time="0"/>
+		<testcase name="echo fubar &#x28;as option&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="http">
+	</testsuite>
+	<testsuite name="http">
+	</testsuite>
+	<testsuite name="get&#x5F;free&#x5F;port&#x28;&#x29;">
+		<testcase name="get&#x5F;free&#x5F;port&#x28;&#x29;" time="0"/>
+		<testcase name="default&#x5F;port&#x28;&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="fatal">
+		<testcase name="libtest&#x3A;&#x3A;fatal" time="0"/>
+		<testcase name="fatal&#x5F;message&#x28;&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="number&#x5F;of&#x5F;cpus&#x28;&#x29;">
+		<testcase name="libtest&#x3A;&#x3A;number&#x5F;of&#x5F;cpus&#x28;&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="create&#x5F;tmpfile&#x28;&#x29;">
+		<testcase name="libtest&#x3A;&#x3A;create&#x5F;tmpfile&#x28;&#x29;" time="0"/>
+	</testsuite>
+	<testsuite name="dns">
+		<testcase name="libtest&#x3A;&#x3A;lookup&#x28;true&#x29;" time="805"/>
+		<testcase name="libtest&#x3A;&#x3A;lookup&#x28;false&#x29;" time="747"/>
+		<testcase name="libtest&#x3A;&#x3A;check&#x5F;dns&#x28;&#x29;" time="132"/>
+	</testsuite>
+	<testsuite name="libtest&#x3A;&#x3A;Timer">
+		<testcase name="libtest&#x3A;&#x3A;Timer" time="0"/>
+	</testsuite>
+</testsuites>

@@ -1,0 +1,13 @@
+<testsuites name="memdump">
+	<testsuite name="memdump">
+		<testcase name="&#x2D;&#x2D;help" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="&#x2D;&#x2D;server" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+		<testcase name="FOUND" time="0">
+		 <failure message="" type=""/>
+		</testcase>
+	</testsuite>
+</testsuites>

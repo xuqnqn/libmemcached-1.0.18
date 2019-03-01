@@ -1,0 +1,8 @@
+<testsuites name="memcapable">
+	<testsuite name="memcapable">
+		<testcase name="&#x2D;&#x2D;quiet" time="44"/>
+		<testcase name="&#x2D;h" time="40"/>
+		<testcase name="&#x2D;a&#x2C; ascii" time="41"/>
+		<testcase name="&#x2D;b&#x2C; binary" time="42"/>
+	</testsuite>
+</testsuites>

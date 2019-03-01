@@ -1,0 +1,8 @@
+<testsuites name="memstat">
+	<testsuite name="memstat">
+		<testcase name="&#x2D;&#x2D;help" time="46"/>
+		<testcase name="&#x2D;&#x2D;binary" time="45"/>
+		<testcase name="&#x2D;&#x2D;server&#x2D;version" time="41"/>
+		<testcase name="&#x2D;&#x2D;binary &#x2D;&#x2D;server&#x2D;version" time="43"/>
+	</testsuite>
+</testsuites>
